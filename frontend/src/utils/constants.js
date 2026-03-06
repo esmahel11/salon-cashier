@@ -1,8 +1,7 @@
 // ثابتەکان و دەقەکان
 
-// لینکی API - دەتوانیت بیگۆڕیت بۆ IP ی کۆمپیوتەرەکەت بۆ بەکارهێنان لە مۆبایل
-// نموونە: 'http://192.168.1.100:5000/api'
-export const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+// لینکی API
+export const API_BASE_URL = 'http://localhost:5000/api';
 
 // دەقەکانی کوردی
 export const TEXTS_KU = {
