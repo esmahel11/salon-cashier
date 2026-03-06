@@ -1,0 +1,42 @@
+/* ستایلی چاوپێکەوتنەکان */
+
+.appointments-page {
+  padding: 20px;
+}
+
+.page-filters {
+  display: flex;
+  gap: 15px;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  background: white;
+  padding: 15px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.filter-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.filter-input {
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  font-size: 14px;
+  min-width: 150px;
+}
+
+.filter-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}

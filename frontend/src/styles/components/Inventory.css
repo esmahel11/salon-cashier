@@ -1,0 +1,40 @@
+/* ستایلی کۆگای مادەکان */
+
+.inventory-page {
+  padding: 20px;
+}
+
+.inventory-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inventory-filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.filter-select {
+  min-width: 150px;
+}
+
+.low-stock-row {
+  background-color: #fef3c7 !important;
+}
+
+.low-stock-row:hover {
+  background-color: #fde68a !important;
+}
+
+@media (max-width: 768px) {
+  .inventory-filters {
+    width: 100%;
+  }
+  
+  .filter-select {
+    width: 100%;
+  }
+}

@@ -1,0 +1,30 @@
+/* ستایلی گۆڕینی زمان */
+
+.language-switcher {
+  display: flex;
+  gap: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.lang-btn {
+  padding: 6px 12px;
+  background: transparent;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.lang-btn.active {
+  background: white;
+  color: var(--primary-color);
+  font-weight: 600;
+}

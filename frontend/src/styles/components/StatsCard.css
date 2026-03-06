@@ -1,0 +1,73 @@
+/* ستایلی کارتی ئامار */
+
+.stats-card {
+  background: white;
+  border-radius: var(--border-radius);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: var(--shadow-md);
+  transition: all 0.3s ease;
+  border-left: 4px solid;
+}
+
+.stats-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.stats-card-primary {
+  border-color: var(--primary-color);
+}
+
+.stats-card-success {
+  border-color: var(--success-color);
+}
+
+.stats-card-danger {
+  border-color: var(--danger-color);
+}
+
+.stats-card-warning {
+  border-color: var(--warning-color);
+}
+
+.stats-card-info {
+  border-color: var(--info-color);
+}
+
+.stats-icon {
+  font-size: 36px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: var(--bg-secondary);
+}
+
+.stats-content {
+  flex: 1;
+}
+
+.stats-title {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.stats-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.currency {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-right: 4px;
+}

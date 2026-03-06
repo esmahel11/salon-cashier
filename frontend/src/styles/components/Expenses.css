@@ -1,0 +1,44 @@
+/* ستایلی خەرجییەکان */
+
+.expenses-page {
+  padding: 20px;
+}
+
+.expenses-summary {
+  margin-bottom: 30px;
+}
+
+.summary-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: var(--border-radius);
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: var(--shadow-md);
+  max-width: 400px;
+}
+
+.summary-icon {
+  font-size: 48px;
+}
+
+.summary-content h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.summary-value {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.summary-label {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 5px;
+  display: block;
+}

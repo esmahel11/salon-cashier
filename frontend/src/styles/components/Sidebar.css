@@ -1,0 +1,54 @@
+/* ستایلی مینیۆی لاتەنیشت */
+
+.sidebar {
+  width: 260px;
+  background: var(--bg-dark);
+  color: white;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-right: 3px solid transparent;
+}
+
+.sidebar-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.sidebar-link.active {
+  background: rgba(99, 102, 241, 0.2);
+  color: white;
+  border-right-color: var(--primary-color);
+}
+
+.sidebar-icon {
+  font-size: 20px;
+  width: 24px;
+  text-align: center;
+}
+
+.sidebar-label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

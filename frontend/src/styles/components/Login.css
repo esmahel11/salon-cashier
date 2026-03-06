@@ -1,0 +1,112 @@
+/* ستایلی چوونەژوورەوە */
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.login-box {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+  overflow: hidden;
+}
+
+.login-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.login-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.login-form {
+  padding: 30px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--text-primary);
+  font-size: 22px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.login-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.login-footer {
+  background: var(--bg-secondary);
+  padding: 15px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.login-footer p {
+  margin: 4px 0;
+}
+
+/* ڕێسپۆنسیڤ بۆ مۆبایل */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 10px;
+  }
+
+  .login-box {
+    max-width: 100%;
+  }
+
+  .login-header {
+    padding: 20px;
+  }
+
+  .login-title {
+    font-size: 20px;
+  }
+
+  .login-form {
+    padding: 20px;
+  }
+
+  .login-form h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .login-button {
+    padding: 14px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,83 @@
+/* ستایلی App */
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background: var(--bg-secondary);
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-area {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+/* ستایلی مۆبایل */
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+  
+  .content-area {
+    padding: 0.5rem;
+    padding-bottom: 70px; /* بۆ ناڤیگەیشنی خوارەوە */
+  }
+}
+
+/* سکرۆڵبار */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* ئانیمەیشنەکان */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease;
+}
+
+/* دەستکاری بۆ تاچ */
+* {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+button, a, input, select, textarea {
+  touch-action: manipulation;
+}
+
+/* دەستکاری بۆ تابلێت */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .content-area {
+    padding: 1.5rem;
+  }
+}
