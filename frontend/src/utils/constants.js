@@ -1,7 +1,7 @@
 // ثابتەکان و دەقەکان
 
 // لینکی API
-export const API_BASE_URL = 'http://localhost:5000/api';
+export const API_BASE_URL = 'https://28d66cdf-5137-4ed6-bc1d-a997c82e7851-00-2fi7bdhflshwj.sisko.replit.dev/api';
 
 // دەقەکانی کوردی
 export const TEXTS_KU = {
